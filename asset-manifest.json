@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/aryaassignmentweb/static/css/main.a2513529.css",
+    "main.js": "/aryaassignmentweb/static/js/main.4fb55aa7.js",
+    "static/js/787.aadca95f.chunk.js": "/aryaassignmentweb/static/js/787.aadca95f.chunk.js",
+    "static/media/slick.svg": "/aryaassignmentweb/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/aryaassignmentweb/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/aryaassignmentweb/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/aryaassignmentweb/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/aryaassignmentweb/index.html",
+    "main.a2513529.css.map": "/aryaassignmentweb/static/css/main.a2513529.css.map",
+    "main.4fb55aa7.js.map": "/aryaassignmentweb/static/js/main.4fb55aa7.js.map",
+    "787.aadca95f.chunk.js.map": "/aryaassignmentweb/static/js/787.aadca95f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2513529.css",
+    "static/js/main.4fb55aa7.js"
+  ]
+}
