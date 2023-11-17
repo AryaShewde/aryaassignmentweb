@@ -1,0 +1,27 @@
+.earning{
+    color: #2AABEE;
+    margin: 0px 14px;
+}
+.atag{
+    font-family: "Bungee", Sans-serif;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width: 1300px) {
+    .atag{
+        font-size: 30px;
+    }
+  }

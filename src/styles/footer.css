@@ -1,0 +1,44 @@
+.footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   border-top: 2px solid white;
+   border-top-style: dashed;
+   height: 60px;
+   color: white;
+   text-align: center;
+}
+.price{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2aabee;
+}
+.dashh{
+    text-decoration: line-through;
+    color: white;
+}
+.btn{
+    background: radial-gradient(circle at top left,#099ef1 0%,#6863f8 18.82%,#d84ffa 32.6%,#f058c5 52.83%,#ff4f90 68.03%,#ff6558 87.66%,#ff891f 100%);
+    padding: 4px 29px;
+    color: white;
+    font-size: 19px;
+    border: 1.5px solid white;
+    border-style: dashed;
+    font-family: "Bungee", Sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: bolder;
+}
+@media screen and (max-width: 500px) {
+    .price{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+}

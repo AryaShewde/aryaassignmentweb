@@ -1,0 +1,91 @@
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subr{
+    width: 990px;
+    margin-top: 20px;
+    cursor: grab;
+}
+.aas{
+    border-radius: 11px;
+    background-color: white;
+    height: auto;
+}
+.image{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 12px;
+}
+.demo{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid black;
+    border-radius: 11px 11px 0px 0px;
+}
+.demo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.slick-slide > div{
+    margin: 0px 10px;
+}
+
+.setofstar{
+    display: flex;
+    height: 20px;
+    margin-left: 6px;
+}
+p{
+    margin: 0px;
+}
+.name{
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 6px;
+}
+.mainreview{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+}
+.blues{
+    color: #2aabee;
+}
+.dash{
+    width: 150px;
+    height: 10px;
+    background-color: #2aabee;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1300px) {
+    .subr{
+        width: 90vw;
+    }
+  }

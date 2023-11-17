@@ -1,0 +1,47 @@
+.require{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subrequire{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subrequire h1{
+    color: white;
+}
+.dash2{
+    width: 150px;
+    height: 10px;
+    background-color: #2aabee;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.listofrequ div{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 3px 0;
+}
+.listofrequ div div{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.listofrequ svg{
+    color: #2aabee;
+}
+@media screen and (max-width: 700px) {
+    .listofrequ div{
+        width: auto;
+    }
+    .flhome a{
+        font-size: 3vw;
+    }
+}

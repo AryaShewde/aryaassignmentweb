@@ -1,0 +1,75 @@
+.learn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0px
+}
+
+.sublearn {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.learn h1 {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+}
+
+.blues {
+    color: #2aabee;
+}
+
+.dash {
+    width: 150px;
+    height: 10px;
+    background-color: #2aabee;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.learnboxs {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.learnbox {
+    /* width: 30%; */
+    display: flex;
+    padding: 15px;
+    border: 2px solid white;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.textaaro {
+    color: white;
+    padding: 0 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.aro {
+    color: #2aabee;
+}
+@media screen and (max-width: 1300px) {
+    .sublearn{
+        width: auto;
+    }
+    .learnboxs {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .learn{
+        padding: 0px 13px;
+    }
+  }

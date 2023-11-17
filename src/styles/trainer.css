@@ -1,0 +1,135 @@
+.trainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trainer h1 {
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+}
+
+.dash3 {
+    width: 150px;
+    height: 10px;
+    background-color: #2aabee;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.subtrainer {
+    width: 1200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+}
+
+.subtrainer div {
+    width: 100%;
+}
+
+.imageself {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-style: dashed;
+}
+
+.setoflist {
+    margin-top: 15px;
+}
+
+.sing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sing svg {
+    margin: 5px 10px;
+    color: #2aabee;
+}
+
+.firsttrainer {
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    margin: 0px 20px;
+}
+
+.firstp h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28px;
+    margin: 0;
+    color: #2aabee;
+}
+
+.firstp {
+    color: white;
+}
+
+.firstp div {
+    font-size: large;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+.paras {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.paratag {
+    background: radial-gradient(circle at top left, #099ef1 0%, #6863f8 18.82%, #d84ffa 32.6%, #f058c5 52.83%, #ff4f90 68.03%, #ff6558 87.66%, #ff891f 100%);
+    padding: 7px 0px;
+    border-radius: 15px;
+    border: 1px solid white;
+    border-style: dashed;
+    width: 85%;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1300px) {
+    .subtrainer {
+        flex-direction: column;
+    }
+
+    .imageself {
+        width: 80vw;
+    }
+
+    .paratag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adasd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .paras{
+        align-items: center;
+    }
+    .subtrainer{
+        width: auto;
+    }
+}
